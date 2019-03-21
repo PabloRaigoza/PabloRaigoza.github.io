@@ -1,3 +1,3 @@
 function dog(){
-	document.GetElementId('msgHello').innerHTML = 'I have changed.';
+	document.GetElementById('msgHello').innerHTML = 'I have changed.';
 };
