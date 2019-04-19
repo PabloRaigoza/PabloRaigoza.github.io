@@ -1,4 +1,6 @@
 .firstLog { 
   background-color: yellow;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
