@@ -6,6 +6,6 @@
   border-color: black;
   border-width: 2px;
   background-color: yellow;
-  display: inline-block;
+  display: inline;
   list-style-type: none;
 }
