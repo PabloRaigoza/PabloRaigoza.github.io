@@ -1,4 +1,4 @@
-.title { 
+ul.info { 
   width: 100%;
   padding: 0;
   margin: 0;
@@ -6,8 +6,6 @@
   border-color: black;
   border-width: 2px;
   background-color: yellow;
-}
-ul.info {
   display: inline-block;
   list-style-type: none;
   margin: 0;
