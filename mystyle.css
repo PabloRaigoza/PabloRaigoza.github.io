@@ -1,11 +1,26 @@
-.info { 
+body {
+  background: darkgrey;
+  font: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+section.post {
   width: 100%;
-  padding: 0;
-  margin: 0;
-  border-style: solid;
+  height: auto;
   border-color: black;
-  border-width: 2px;
-  background-color: yellow;
-  display: inline;
-  list-style-type: none;
+  border-width: 3px;
+  border-style: solid;
+  background-color: lightgrey;
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+}
+section.post header.title {
+  width: auto;
+  height: auto;
+  padding: 3px 10px 3px 10px;
+  border-width: 0px 0px 2px 0px;
+  border-color: black;
+  border-style: solid;
+}
+section.post article.body {
+  padding: 0px 10px 3px 10px;
 }
