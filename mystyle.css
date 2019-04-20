@@ -7,7 +7,7 @@
   border-width: 2px;
   background-color: yellow;
 }
-.title.info {
+ul.info {
   display: inline-block;
   list-style-type: none;
   margin: 0;
