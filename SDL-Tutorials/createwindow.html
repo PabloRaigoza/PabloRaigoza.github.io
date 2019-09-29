@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating Windows</title>
+	<link rel="stylesheet" type="text/css" href="sdl-styles.css">
+</head>
+<body>
+	<h1 class="title">
+		Creating a Window Using SDL2
+	</h1>
+	<h3 class="title">
+		<a href="sdl-tutorial.html">Tutorial Lists</a>
+	</h3>
+		
+	<object class="code-box" data="Create-Window.cpp" height="525" >
+	Error Obtaining File
+	</object>
+
+	<div class="text-box" >
+		<p>
+			So if you have followed the tutorial correctly, you would have installed SDL2. This means that we can now <b class="code-text">#include</b> SDL into our programs. That is what I have done on the first line of code.
+		</p>
+		<p>
+			Next you will see that I end up using the standard namespace. But in our <b class="code-text">int main()</b> you will see that I included some extra parameters. I am not entirely sure what they do or even if I need them, but I have always included them in the past.
+		</p>
+		<p>
+			The next couple lines code set the dimensions our screen. Then we go ahead and load in some of our SDL into our program. We call the function <b class="code-text" >SDL_Init()</b>. This function loads whatever substystem you would like to load. Here are all the parameters:
+		</p>
+		<table style="width:100%">
+			<tr>
+				<th style="text-align:left" >Syntax</th>
+				<th style="text-align:left">Operation</th>
+			</tr>
+			<tr>
+				<td>SDL_INIT_TIMER</td>
+				<td>Loads timer subsystem</td>
+			</tr>
+			<tr>
+				<td>SDL_INIT_AUDIO</td>
+				<td>Loads audio subsystem</td>
+			</tr>
+			<tr>
+				<td>SDL_INIT_VIDEO</td>
+				<td>Loads video subsystem and events subsystem</td>
+			</tr>
+			<tr>
+				<td>SDL_INIT_JOYSTICK</td>
+				<td>Loads joystick subsystem and events subsystem</td>
+			</tr>
+			<tr>
+				<td>SDL_INIT_HAPTIC</td>
+				<td>Loads haptic subsystem</td>
+			</tr>
+			<tr>
+				<td>SDL_INIT_GAMERCONTROLLER</td>
+				<td>Loads gamecontroller subsystem and joystick subsystem</td>
+			</tr>
+			<tr>
+				<td>SDL_INIT_EVENTS</td>
+				<td>Loads events subsystem</td>
+			</tr>
+			<tr>
+				<td>SDL_INIT_EVERYTHING</td>
+				<td>Loads all above subsystem</td>
+			</tr>
+		</table>
+		<p>
+			After we loaded our SDL we must make a window to display. We do this using the <b class="code-text ">SDL_Window</b> object. This creates us a window to use. Next we assign our object equal to the function <b class="code-text">SDL_CreatWindow()</b>. This function takes in six parameters.
+			<ul>
+				<li>
+				The first parameter is the a char array or string of whatever you would like your window to be called.
+				</li>
+				<li>
+				The next two parameters are the x and y cordinates of where you would like your window to appear. I just used <b class="code-text">SDL_WINDOWPOS_UNDEFINED</b> for both my x and y cordinates.
+				</li>
+				<li>
+				The next two parameters are your width and height of the window. I used the constant integers we assigned before.
+				</li>
+				<li>
+				The last parameter is the state of the window. I simply used <b class="code-text">SDL_WINDOW_SHOWN</b>. For these tutorials this should suffice.
+				</li>
+			</ul>
+		</p>
+		<p>
+			The next line is important because here is where we put delay into the program. The delay is important because otherwise the program would run so fast that you could not see the window pop up. Please note that the function <b class="code-text">SDL_Delay()</b> delays the program by the number of mili-seconds you provide. Lastly we must simply free the resources that we have used. This required to call the function <b class="code-text">SDL_DestoryWindow()</b> and <b class="code-text">SDL_Quit()</b>. It is also good practice to assign your <b class="code-text">SDL_Window</b>s to <b class="code-text">NULL</b> when you are done using them.
+		</p>
+		<p>
+			More information about all of these functions can be found here:
+			<ul class="closed-captioning" >
+				<li><a href="https://wiki.libsdl.org/SDL_Init">SDL_Init()</a></li>
+				<li><a href="https://wiki.libsdl.org/SDL_CreateWindow?highlight=%28SDL_Window%29">SDL_CreateWindow()</a></li>
+				<li><a href="https://wiki.libsdl.org/SDL_Delay">SDL_Delay()</a></li>
+				<li><a href="https://wiki.libsdl.org/SDL_DestroyWindow">SDL_DestroyWindow()</a></li>
+				<li><a href="https://wiki.libsdl.org/SDL_Quit">SDL_Quit()</a></li>
+			</ul>
+		</p>
+	</div>
+
+
+</body>
+</html>
