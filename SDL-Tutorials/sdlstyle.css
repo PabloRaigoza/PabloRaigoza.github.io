@@ -1,0 +1,42 @@
+body
+{
+	background: darkgrey;
+}
+.title
+{
+	color: black;
+	text-align: center;
+}
+
+.text-box
+{
+	width: auto;
+	height: auto;
+	color: black;
+	background: lightgrey;
+	border: 2px solid black;
+	padding: 3px 3px 3px 10px;
+	margin: 20px 0px 20px 0px;
+}
+
+object.code-box
+{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid black;
+	background: white;
+	counter-increment: line;
+}
+
+.code-text
+{
+	background: white;
+}
+
+.closed-captioning
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
