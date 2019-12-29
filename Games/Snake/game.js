@@ -4,7 +4,7 @@ let foodY;
 let scl = 20;
 
 function setup() {
-	createCanvas( 320, 240 );
+	createCanvas( window.innerWidth/2, window.innerWidth/2 );
 	myHead = new SnakeHead(0, 0, scl);
 	pickFoodLocation();
 	strokeWeight(1);
