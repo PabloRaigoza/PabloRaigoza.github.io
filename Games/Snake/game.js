@@ -1,15 +1,24 @@
-let myHead;
 let foodX;
 let foodY;
-let scl = 20;
+let scl = 40;
+let canvas;
 
 function setup() {
-	createCanvas( window.innerWidth/2, window.innerWidth/2 );
+	canvas = createCanvas(
+		(window.innerWidth) - (2)*(20),
+		(window.innerHeight)- (2)*(20)
+	);
+	canvas.position(
+		(20),
+		(20)
+	);
+
 	myHead = new SnakeHead(0, 0, scl);
 	pickFoodLocation();
 	strokeWeight(1);
 	stroke(0);
 }
+
 
 function pickFoodLocation() {
 	foodX = (round( random(((width -scl)/scl)) ) * scl);
