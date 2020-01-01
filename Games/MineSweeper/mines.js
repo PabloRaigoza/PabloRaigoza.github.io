@@ -11,7 +11,7 @@ let found = 0;
 let spacePressed = false;
 
 function setup() {
-	createCanvas( 600, 450 );
+	createCanvas( 810, 600 );
 	w = width /scl;
 	h = height/scl;
 
