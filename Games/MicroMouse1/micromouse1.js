@@ -39,7 +39,8 @@ function loadMaze() {
 
 		let isShown = true;
 
-		if( pieces[4] == "f" )
+		//str1.localeCompare(str2);
+		if( pieces[4].localeCompare("f") )
 			isShown = false;
 		else
 			console.log(pieces[4]);
