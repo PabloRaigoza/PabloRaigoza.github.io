@@ -31,11 +31,11 @@ function loadMaze() {
 	for( let i = 0; i < file.length; i++) {
 		let line = file[i];
 		let pieces = split(line, " ");
-		let x1 = let(pieces[0]);
-		let y1 = let(pieces[1]);
+		let x1 = parseInt(pieces[0],10);
+		let y1 = parseInt(pieces[1],10);
 
-		let x2 = let(pieces[2]);
-		let y2 = let(pieces[3]);
+		let x2 = parseInt(pieces[2],10);
+		let y2 = parseInt(pieces[3],10);
 
 		let isShown = false;
 
