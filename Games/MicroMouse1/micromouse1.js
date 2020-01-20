@@ -41,6 +41,8 @@ function loadMaze() {
 
 		if( pieces[4] == "t" )
 			isShown = true;
+		else
+			console.log(pieces[4]);
 
 		walls[cellCounter][wallCounter] = new Wall(x1,y1,x2,y2,isShown);
 		wallCounter++;
