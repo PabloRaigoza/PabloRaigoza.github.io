@@ -52,11 +52,11 @@ function Sprite (_x, _y, _w, _h) {
 	this.forward = function() {
 		if(this.face == 0)
 			this.y = this.y - this.h;
-		else if(face == 1)
+		else if(this.face == 1)
 			this.x = this.x + this.w;
-		else if(face == 2)
+		else if(this.face == 2)
 			this.y = this.y + this.h;
-		else if(face == 3)
+		else if(this.face == 3)
 			this.x = this.x - this.w;
 	}
 
