@@ -39,11 +39,13 @@ function loadMaze() {
 
 		let isShown = true;
 
-		//str1.localeCompare(str2);
-		if( pieces[4].localeCompare("f") )
+		if( pieces[4].localeCompare("f") === 0 ){
 			isShown = false;
-		else
+			console.log("so i never run");
+		} else {
 			console.log(pieces[4]);
+			isShown = true;
+		}
 
 		walls[cellCounter][wallCounter] = new Wall(x1,y1,x2,y2,isShown);
 		wallCounter++;
