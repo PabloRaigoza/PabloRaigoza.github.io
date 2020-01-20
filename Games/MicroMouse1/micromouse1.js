@@ -37,10 +37,10 @@ function loadMaze() {
 		let x2 = parseInt(pieces[2],10);
 		let y2 = parseInt(pieces[3],10);
 
-		let isShown = false;
+		let isShown = true;
 
-		if( pieces[4] == "t" )
-			isShown = true;
+		if( pieces[4] == "f" )
+			isShown = false;
 		else
 			console.log(pieces[4]);
 
