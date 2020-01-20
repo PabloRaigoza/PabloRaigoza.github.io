@@ -110,11 +110,11 @@ function keyPressed() {
 		if(key == ' ')
 			if(!wallInFront())
 				microMouse.forward();
-		if(keyCode == RIGHT)
+		if(keyCode == RIGHT_ARROW)
 			microMouse.clockWise();
-		if(keyCode == LEFT)
+		if(keyCode == LEFT_ARROW)
 			microMouse.counterClockwise();
-		if( keyCode == DOWN || keyCode == UP) {
+		if( keyCode == DOWN_ARROW || keyCode == UP_ARROW) {
 			microMouse.clockWise();
 			microMouse.clockWise();
 		}
