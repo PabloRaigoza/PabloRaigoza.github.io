@@ -5,7 +5,7 @@ function Wall(_x1, _y1, _x2, _y2, _solid) {
 	this.x2 = _x2;
 	this.y2 = _y2;
 
-	this.solid = false;
+	this.solid = _solid;
 
 	this.show = function() {
 		if(this.solid)
