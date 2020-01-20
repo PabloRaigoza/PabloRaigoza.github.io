@@ -28,7 +28,7 @@ function setup() {
 function loadMaze() {
 	let cellCounter = 0;
 	let wallCounter = 0;
-	for( let i = 0; i < file.length; i++) {
+	for( let i = 0; i < file.length-1; i++) {
 		let line = file[i];
 		let pieces = split(line, " ");
 		let x1 = parseInt(pieces[0],10);
