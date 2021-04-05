@@ -1,0 +1,11 @@
+Plans For summer
+
+Date: 06/15/2019
+
+Grade: 9 - 10
+
+So I has been two months since my last post. A little upsetting because it has been so long. But during this summer I would love to post way more often, probably atleast once a day dring this summer. I have jumped straight into coding again in the past couple of day. As I was flipping through the terminal, I saw this file and decided that it needs an update because it has been a while.
+
+So lately I have kinda been practicing a little JavaScript. I find JavaScript fun because then I could program some games with it in the future. JS for me right now is a more fun format I can code in. I am still learning all there is to coding as I am not satisified with the amount I know right now. I am still learning to program a in C++. C++ is the language where I am learning all the basic programming fundimentals. Since it is a little more strict on what you can do, it forces you to do things correct and properly. Also I have a massive book about it and there is tons of information to be learned.
+
+I do have a class the first couple weeks of summer so my time learning might be cut down a little bit, but probably not too much. I am excited to learn a lot more of Computer Science. My goals right now for the summer is to finish my 1000+ page book on C++. It'll be about 25 pages perday so it should seem pretty manageable. I'll be spending a couple hours doing that everyday and then finish off my day updating this website and adding a post. Excited for what's ahead of me.
