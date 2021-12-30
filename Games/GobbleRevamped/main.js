@@ -212,7 +212,7 @@ function checkWinner() {
     }
   }
   
-  for (let i = 0; i < 3; i+=3) {
+  for (let i = 0; i < 7; i+=3) {
     let judgeMemory = [];
     for (let j = i; j < i+3; j++) {
       if (grid[j] != 0) {
