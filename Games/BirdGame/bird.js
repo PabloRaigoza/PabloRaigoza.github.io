@@ -27,6 +27,11 @@ class Bird {
             this.y = height-this.radius;
             this.yVel -= gravity;
         }
+
+        if (this.y-this.radius < 0) {
+            this.y = this.radius;
+            this.yVel = 0;
+        }
     }
 
     show() {

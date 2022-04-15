@@ -5,6 +5,7 @@ let gameOver = false;
 let score = 0;
 let button;
 let BIRD_X;
+let timeOutDelay = 30;
 function setup() {
     createCanvas(600,800);
     sBird = new Bird(new Point(600/4,800/2), 25);
@@ -50,12 +51,14 @@ function draw() {
         fill(0,0,0);
         textSize(width/16);
         button.showText();
+        if (t < timeOutDelay) {
+            t++;
+        } 
     }
 }
 
 function mousePressed() {
     if (gameOver) {
-        console.log(new Point(mouseX, mouseY))
         if (button.clickOccurred(new Point(mouseX, mouseY))) {
             // console.log("kjalskjd")
             sBird = new Bird(new Point(BIRD_X,height/2), 25);
@@ -65,6 +68,7 @@ function mousePressed() {
             tubes[1].x+=DIST_TUBES;
             score = 0;
             gameOver = false;
+            t=0;
         }
     }
 }
@@ -73,6 +77,17 @@ function keyPressed() {
     if (!gameOver) {
         if (key == ' ') {
             sBird.jump();
+        }
+    } else {
+        if (key == ' ' && t==timeOutDelay) {
+            sBird = new Bird(new Point(BIRD_X,height/2), 25);
+            tubes = [];
+            tubes.push(new Tube());
+            tubes.push(new Tube());
+            tubes[1].x+=DIST_TUBES;
+            score = 0;
+            gameOver = false;
+            t=0;
         }
     }
 }
