@@ -70,6 +70,8 @@ function mousePressed() {
             gameOver = false;
             t=0;
         }
+    } else {
+        sBird.jump();
     }
 }
 
