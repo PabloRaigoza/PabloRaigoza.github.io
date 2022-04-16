@@ -34,7 +34,7 @@ class Tube {
         //     score++;
         // }
         
-        if (this.x<0) {
+        if (this.x+this.radius<0) {
             this.x = otherX+DIST_TUBES;
             this.y = random(TUBE_GAP+50,height-TUBE_GAP+50);
         }
