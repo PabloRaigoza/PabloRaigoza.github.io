@@ -1,9 +1,0 @@
-Motivated
-
-Date: 06/18/2019
-
-Grade: 9 - 10
-
-Today I recently discovered Sublime Text Editor. I finished installing it into the terminal, then fired it up. I soon found out all the ways to edit it and now coding has never been so fun. I have programming in JavaScript instead of C++ because I found it more fun. One of the reasons why I found it so much fun was because of its simplicity compared to C++. But now after programming in Sublime a little in C++ I am finding way more fun than JavaScript. I have only done a couple hours but lately it has been an awesome experience. To be honest I am a little upset that I have to go to sleep right now.
-
-Since this last motivation, I really want to just hurry up and finish this book on C++. This way I could go and start working a big programs that are actulally useful. I am definitely going to finish reading this book. Also, lately I have seeon that my typing skills could do with some work. So now I have been working on typing faster so I can program faster. I am extremely motivated right now to code. Also I am thinking of uploading my projects to my GitHub repositories.

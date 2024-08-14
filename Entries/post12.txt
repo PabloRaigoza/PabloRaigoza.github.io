@@ -1,9 +1,0 @@
-Busiest Month of Year
-
-Date: 04/19/2021
-
-Grade: 11
-
-This upcoming month is going to be the busiest month of the entire school year. With AP testing and SAT coming up I really am going to have to focus on school work during this part of the year. That being said I do have plans to keep learning more code. Something that I have been interested in is learning OpenGL and wxWidgets, both of which are very different by nature. I have done some research and learned that OpenGL is primarily a graphics library. My current MarchMake problem (which I have been diagramming in C#) has been proven to be much too slow to be able to run. I could do some optimizations but the main issue is that when dealing with Windows Forms, too much code is being run in the background. My CPU usage and RAM usage is far too high for running simple applications. This is why I would like to transition to something that has a little more speed. OpenGL is widely used for many professional computer graphics games due to its relative simplicity and very good performance. This is why I would really like to learn how to program in the language.
-
-The second piece to this puzzle is that I would like to learn wxWidgets. wxWidgets is essentially a library that allows users to create GUIs, but it is more in depth than that. wxWidgets is a full blown working environment for many things that have to deal with windows applications. Now I know how broad that can seem but wxWidgets seems to be a fully functioning framework that deals with many things such as time, clocks, graphics, event calls and much more. The interesting thing about learning wxWidgets and OpenGL is that both of these are cross platform. Using them both together will prove to be very powerful which is why I am very excited to learn about them.
